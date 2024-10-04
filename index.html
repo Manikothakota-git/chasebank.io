@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chase Bank - Secure Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .login-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .logo {
+            width: 40px;
+            height: 40px;
+            background-color: #004b91;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        h1 {
+            font-size: 24px;
+            color: #004b91;
+            margin: 0;
+        }
+        h2 {
+            color: #004b91;
+            margin-bottom: 20px;
+        }
+        input[type="text"], input[type="password"] {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            width: 90%;
+            padding: 10px;
+            background-color: #004b91;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #003366;
+        }
+        .forgot-password {
+            display: block;
+            margin: 15px 0;
+            color: #004b91;
+            text-decoration: none;
+        }
+        .forgot-password:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <!-- Logo and Bank Name -->
+        <div class="logo-container">
+            <div class="logo">C</div>
+            <h1>Chase Bank</h1>
+        </div>
+
+        <!-- Secure Login Header -->
+        <h2>Secure Login</h2>
+
+        <!-- Login Form -->
+        <form action="#" method="POST">
+            <input type="text" name="username" placeholder="Username" required><br>
+            <input type="password" name="password" placeholder="Password" required><br>
+            <input type="submit" value="Log In">
+        </form>
+
+        <!-- Forgot Password Link -->
+        <a href="#" class="forgot-password">Forgot username or password?</a>
+    </div>
+
+</body>
+</html>
